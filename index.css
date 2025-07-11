@@ -37,10 +37,7 @@ nav{
     border: none;
     font-family: "Raleway", sans-serif;
     transition: 0.5s;
-    padding-top: 14px;
-    padding-bottom: 14px;
-    padding-left: 36px;
-    padding-right: 36px;
+    padding: 15px 36px 15px 36px
 }
 
 button:hover{
@@ -67,7 +64,7 @@ button:hover{
 /* Set in action */
 
 main{
-    background-color: #4d47ff1a;
+    background-color: #4d47ff11;
 }
 
 .action-container{
@@ -78,6 +75,7 @@ main{
     width: 70%;
     height: 330px;
     margin: auto;
+    padding-bottom: 116px;
 }
 
 .action-text{
@@ -90,8 +88,123 @@ main{
 }
 .action-text p{
     font-size: 24px;
+    color: #25243269;
 }
 
 .action-container img{
     border-radius: 48px;
+    transition: .5s;
+}
+.action-container img:hover{
+    transform: scale(1.06);
+}
+
+/* productive user chart */
+
+.productive-user{
+    width: 70%;
+    height: 310px;
+    background-color: #4d47ff1c;
+    margin: auto;
+    padding: 50px 60px 50px 60px;
+    text-align: center;
+    border-radius: 24px;
+}
+
+.productive-text{
+    width: 856px;
+    height: 210px;
+    margin: auto;
+}
+
+.productive-text h2{
+    font-size: 42px;
+    font-family: "Raleway", sans-serif;
+    margin-bottom: 52px;
+}
+
+.amount-container{
+    display: flex;
+    justify-content: space-between;
+}
+
+.amount h1{
+    font-family: "inter",sans-serif;
+    font-size: 80px;
+    margin: 0;
+    color: #4E47FF;
+    transition: 0.5s;
+}
+.amount h1:hover{
+    color: #ff9e4f;
+    cursor: default;
+}
+
+.amount p{
+    font-family: "inter",sans-serif;
+    font-size: 20px;
+    color: #25243269;
+}
+
+/* review-section */
+
+.review-container{
+    text-align: center;
+    width: 70%;
+    height: 350px;
+    margin: auto;
+    padding-top: 137px;
+}
+.review-container h1{
+    font-family: "Raleway", sans-serif;
+    font-size: 42px;
+    margin-bottom: 50px;
+}
+
+.review-section{
+    display: flex;
+    justify-content: space-between;
+    gap: 35px;
+}
+
+.reviews{
+    background-color: white;
+    padding: 24px 30px 24px 30px;
+    border-radius: 14px;
+    text-align: left;
+    transition: .5s;
+}
+.reviews:hover{
+    transform: scale(1.06);
+    cursor: default;
+}
+
+.ri-star-fill{
+    color: gold;
+}
+
+.review-text{
+    font-family: "inter",sans-serif;
+}
+
+.user{
+    font-family: "inter",sans-serif;
+    display: flex;
+    align-items: center;
+}
+
+.user img{
+    width: 60px;
+    height:60px;
+    border-radius: 999px;
+    margin-right: 15px;
+}
+
+.user-text h3{
+    color: #757575;
+    font-size: 16px;
+}
+.user-text p{
+    color: #B3B3B3;
+    font-size: 16px;
 }
